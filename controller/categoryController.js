@@ -14,7 +14,7 @@ const Data=(req,res)=>{
      
       {
         id: 2,
-        cover2:
+        cover:
           "https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg?cs=srgb&dl=pexels-paul-deetman-2695679.jpg&fm=jpg",
         category: "Hollywood",
         title: "There's always light at the end of the tunnel",
@@ -23,7 +23,7 @@ const Data=(req,res)=>{
      
       {
         id:3,
-        cover3:
+        cover:
           "https://missilethreat.csis.org/wp-content/uploads/2017/04/Indian_Web.png",
         category: "Technology",
         title: "Technology was the key to my freedom",
