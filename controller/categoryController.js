@@ -5,7 +5,7 @@ const Data=(req,res)=>{
       {
         id: 1,
         cover:
-          "https://t3.ftcdn.net/jpg/02/51/11/56/360_F_251115658_qdOPyuraxekcHlooDi4yCPsW9NlPU2GB.jpg",
+          "https://media.istockphoto.com/id/1309759558/vector/bollywood-is-a-traditional-indian-movie-vector-illustration-with-marquee-lights.jpg?s=612x612&w=0&k=20&c=qfX-MKPtLo7Sb9-uudw1YY7ZS7OMantdTp-RlwSSTA0=",
         category: "Bollywood",
         title:
           "Fashion is part of the daily air and it changes all the time, with all the events.",
@@ -15,7 +15,7 @@ const Data=(req,res)=>{
       {
         id: 2,
         cover:
-          "https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg?cs=srgb&dl=pexels-paul-deetman-2695679.jpg&fm=jpg",
+          "https://www.rollingstone.com/wp-content/uploads/2023/06/GettyImages-1249393950.jpg?w=1581&h=1054&crop=1",
         category: "Hollywood",
         title: "There's always light at the end of the tunnel",
       },
@@ -24,7 +24,7 @@ const Data=(req,res)=>{
       {
         id:3,
         cover:
-          "https://missilethreat.csis.org/wp-content/uploads/2017/04/Indian_Web.png",
+          "https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg",
         category: "Technology",
         title: "Technology was the key to my freedom",
       },
