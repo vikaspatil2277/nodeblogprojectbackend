@@ -1,8 +1,7 @@
 //const authToken = require("../middleware/authenticateToken");
 
-const {Data,blog,latestArticle,topPosts,latestStories,detailDesc,Total}=require("../controller/categoryController")
+const {Data,blog,latestArticle,topPosts,latestStories,detailDesc,Total}=require("./controller/categoryController")
 
-const authToken=require("../middleware/authenticateToken")
 
 
 
@@ -16,7 +15,6 @@ categoryRouter.get("/topPosts",topPosts)
 categoryRouter.get("/latestStories",latestStories)
 categoryRouter.get("/total",Total)
 
-//categoryRouter.get("/detailDesc",detailDesc)
-categoryRouter.get("/detailDesc", authToken, detailDesc);
+categoryRouter.get("/detailDesc", detailDesc);
 
 module.exports=categoryRouter;

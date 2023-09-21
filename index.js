@@ -1,6 +1,5 @@
 const express=require("express")
-const categoryRouter=require("./route/categoryRouter")
-const userRoute=require("./route/userRoute")
+const categoryRouter=require("../route/categoryRouter")
 const cors=require("cors")
 
 
@@ -12,7 +11,7 @@ app.use(cors({
     origin:"*" 
 }))
 app.use("/api/categories",categoryRouter)
-app.use("/students",userRoute)
+
 
 app.listen(4000,()=>{
     console.log('Server is running on port 4000');
