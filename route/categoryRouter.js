@@ -1,6 +1,6 @@
 //const authToken = require("../middleware/authenticateToken");
 
-const {Data,blog,latestArticle,topPosts,latestStories,detailDesc,Total}=require("./controller/categoryController")
+const {Data,blog,latestArticle,topPosts,latestStories,detailDesc,Total}=require("../controller/categoryController")
 
 
 
