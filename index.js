@@ -1,5 +1,6 @@
 const express=require("express");
-const categoryRouter=require("../route/categoryRouter");
+// const categoryRouter=require("../route/categoryRouter");
+const categoryRouter = require('./route/categoryRouter');
 const cors=require("cors")
 
 
